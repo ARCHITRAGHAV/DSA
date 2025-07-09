@@ -2,7 +2,7 @@ package Recursion;
 
 import java.util.Scanner;
 
-public class Print1toN {
+public class PrintNumbers1toN {
     public static void print(int x, int n) {
         if (x > n) return;
         System.out.print(x + " ");
