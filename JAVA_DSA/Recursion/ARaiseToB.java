@@ -10,7 +10,7 @@ public class ARaiseToB {
     }
 
     public static int pow1(int a, int b) {
-        if (b == 1) return a;
+        if (b == 0) return 1;
         int call = pow1(a, b / 2);
         if (b % 2 == 0) return call * call;
         else return call * call * a;
